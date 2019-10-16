@@ -20,15 +20,3 @@ class Rectangle {
         return this.length * this.width;
     }
 }
-
-public class Lesson02Task1 {
-    public static void main(String[] args) {
-        Rectangle a = new Rectangle();
-        System.out.println("P = " + a.p());
-        System.out.println("S = " + a.s());
-
-        Rectangle b = new Rectangle(7, 13);
-        System.out.println("P = " + b.p());
-        System.out.println("S = " + b.s());
-    }
-}
