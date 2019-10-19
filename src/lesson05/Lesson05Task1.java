@@ -1,5 +1,10 @@
 package lesson05;
 
+import lesson05.Task1.CoffeeRobot;
+import lesson05.Task1.Robot;
+import lesson05.Task1.RobotCooker;
+import lesson05.Task1.RobotDancer;
+
 public class Lesson05Task1 {
     public static void main(String[] args) {
         Robot robot = new Robot();

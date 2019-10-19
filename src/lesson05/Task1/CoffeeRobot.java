@@ -1,4 +1,4 @@
-package lesson05;
+package lesson05.Task1;
 
 public class CoffeeRobot extends Robot {
     public void work() {
