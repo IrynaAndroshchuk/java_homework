@@ -1,6 +1,5 @@
 package lesson06;
 
-import lesson05.Task3.Animal;
 import lesson06.Task1.Cat;
 import lesson06.Task1.Cow;
 import lesson06.Task1.Dog;
