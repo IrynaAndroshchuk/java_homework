@@ -1,7 +1,5 @@
 package lesson07_interface;
 
-import lesson07_interface.Task1.FixedSalaryEmployee;
-import lesson07_interface.Task1.HourlySalaryEmployee;
 import lesson07_interface.Task2.MyCalculator;
 
 public class Lesson07Task2 {
