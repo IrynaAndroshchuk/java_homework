@@ -1,5 +1,8 @@
 package lesson07_interface;
 
+import lesson07_interface.Task1.FixedSalaryEmployee;
+import lesson07_interface.Task1.HourlySalaryEmployee;
+
 public class Lesson07Task1 {
     public static void main(String[] args) {
         FixedSalaryEmployee fixedSalaryEmployee = new FixedSalaryEmployee(25000);

@@ -1,4 +1,4 @@
-package lesson07_interface;
+package lesson07_interface.Task1;
 
 public class HourlySalaryEmployee implements Salary {
     int rate;
