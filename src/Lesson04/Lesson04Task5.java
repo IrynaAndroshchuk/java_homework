@@ -1,3 +1,5 @@
+package Lesson04;
+
 public class Lesson04Task5 {
     public static void main(String[] args) {
         Rectangle rec1 = new Rectangle();

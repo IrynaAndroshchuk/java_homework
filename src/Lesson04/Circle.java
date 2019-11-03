@@ -1,3 +1,5 @@
+package Lesson04;
+
 public class Circle {
     private double r;
     private double d;

@@ -1,3 +1,5 @@
+package Lesson04;
+
 public class Lesson4Task6 {
     public static void main(String[] args) {
         Circle c1 = new Circle(23);

@@ -1,3 +1,5 @@
+package Lesson04;
+
 class Rectangle {
     int length;
     int width;

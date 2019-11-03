@@ -1,3 +1,5 @@
+package Lesson04;
+
 public class Lesson04Task3 {
     public static void main(String[] args) {
         int[] Arr = {8, 5, 3, 4, 16, 6, 7, 11, 9, 3};
