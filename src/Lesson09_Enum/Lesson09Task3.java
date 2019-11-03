@@ -1,4 +1,4 @@
-package Lessone09_Enum.Task3;
+package Lesson09_Enum;
 
 import java.util.Scanner;
 
