@@ -7,6 +7,11 @@ import Lesson10_Exception.Task1.WrongConsoleParametersException;
 import java.util.Scanner;
 
 public class Lesson10Task1 {
+
+    /**
+     * @param args
+     * @throws WrongConsoleParametersException
+     */
     public static void main(String[] args) throws WrongConsoleParametersException {
         while (true) {
             System.out.println("1. Check the month");
