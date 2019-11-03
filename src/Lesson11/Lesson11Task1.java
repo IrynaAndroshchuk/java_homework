@@ -22,5 +22,13 @@ public class Lesson11Task1 {
         } else {
             System.out.println("This word is not palindrome");
         }
+        word = word.replace('a', '-');
+        word = word.replace('e', '-');
+        word = word.replace('i', '-');
+        word = word.replace('o', '-');
+        word = word.replace('u', '-');
+        word = word.replace('y', '-');
+
+        System.out.println("The new word is: " + word);
     }
 }
