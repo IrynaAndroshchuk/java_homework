@@ -52,8 +52,14 @@ public class Main {
                         zooClub.removePerson(person3);
                         zooClub.printMap();
                         break;
+                    case 5:
+                        zooClub.printMap();
+                        String type = scanTypeOfAnimal();
+                        zooClub.removeAnimalByType(type);
+                        zooClub.printMap();
                     case 6:
                         zooClub.printMap();
+                        break;
                     case 7:
                         exit = true;
                         break;
@@ -91,5 +97,12 @@ public class Main {
         Scanner scan1 = new Scanner(System.in);
         int index = scan1.nextInt();
         return index;
+    }
+
+    static public String scanTypeOfAnimal() {
+        System.out.println("Enter type of animal to remove");
+        Scanner scan1 = new Scanner(System.in);
+        String type = scan1.nextLine();
+        return type;
     }
 }

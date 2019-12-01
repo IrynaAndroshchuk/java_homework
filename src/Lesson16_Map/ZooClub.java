@@ -1,9 +1,6 @@
 package Lesson16_Map;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ZooClub {
     Map<Person, List<Animal>> map = new HashMap<>();
@@ -59,4 +56,18 @@ public class ZooClub {
     public void removePerson(Person person) {
         map.remove(person);
     }
+
+    public void removeAnimalByType(String type) {
+        for (Map.Entry<Person, List<Animal>> entry : map.entrySet()) {
+            Iterator<Animal> animals = entry.getValue().iterator();
+            while (animals.hasNext()) {
+                Animal animal = animals.next();
+                if (type.equals(animal.getType())) {
+                    animals.remove();
+
+                }
+            }
+        }
+    }
 }
+
